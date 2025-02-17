@@ -13,6 +13,7 @@ for i in range(500):
 
     if response.status_code == 200:
         print(f"SIIIIIII: {response.status_code}")
+        break
     else:
         print(f"No se pudo acceder al archivo, código de estado: {response.status_code}")
 
